@@ -23,17 +23,6 @@ body {
     background: #f1f1f1;
 }
 
-/* Header/Blog Title */
-.header {
-    padding: 30px;
-    text-align: center;
-    background: white;
-}
-
-.header h1 {
-    font-size: 50px;
-}
-
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -104,3 +93,81 @@ body {
     }
 }
 
+/* .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, [col] 150px);
+    grid-template-rows: repeat(2, [row] auto);
+
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.unknown {
+    grid-column: col / span 2;
+    grid-row: row;
+}
+
+.dead {
+    grid-column: col / span 2;
+    grid-row: row;
+}
+
+.innocent {
+    grid-column: col / span 2;
+    grid-row: row;
+}
+
+.suspicious {
+    grid-column: col / span 2;
+    grid-row: row;
+}
+
+.target-list {
+    grid-column: col / span 2;
+    grid-row: row;
+} */
+
+
+#innocent {
+    width: 350px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+#suspicious {
+    width: 350px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+#target-list {
+    width: 350px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+#dead {
+    width: 345px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+#unknown {
+    width: 345px;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}

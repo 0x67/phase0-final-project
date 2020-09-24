@@ -22,29 +22,36 @@
             <h2>Player Tracker</h2>
             <div class="innocent">
                 <h3>Innocent</h3>
-                <div id="innocent" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="wrapper">
+                    <div class="box innocent"></div>
+                </div>
             </div>
 
             <div class="suspicious">
                 <h3>Suspicious</h3>
-                <div id="suspicious" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="wrapper">
+                    <div class="box suspicious"></div>
+                </div>
             </div>
 
             <div class="target-list">
                 <h3>Target List</h3>
-                <div id="target-list" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="wrapper">
+                    <div class="box target-list"></div>
+                </div>
             </div>
 
             <div class="dead">
                 <h3>Dead</h3>
-                <div id="dead" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                <br>
+                <div class="wrapper">
+                    <div class="box dead"></div>
+                </div>
             </div>
 
             <div class="unknown">
                 <h3>Unknown</h3>
 
-                <!-- <div class="wrapper">
+                <div class="wrapper">
                     <div class="box unknown">
                         <img id="black" class="resize-img" src="img/player_black.webp" draggable="true"
                             ondragstart="drag(event)">
@@ -60,31 +67,19 @@
                         <img class="resize-img" src="img/player_white.webp" alt="">
                         <img class="resize-img" src="img/player_yellow.webp" alt="">
                     </div>
-                </div> -->
-
-                <div id="unknown" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <img class="resize-img" id="black" src="img/player_black.webp" draggable="true"
-                    ondragstart="drag(event)">
-                <img class="resize-img" id="blue" src="img/player_blue.webp" draggable="true" ondragstart="drag(event)">
-                <img class="resize-img" id="brown" src="img/player_brown.webp" draggable="true"
-                    ondragstart="drag(event)">
-                <img class="resize-img" id="cyan" src="img/player_cyan.webp" draggable="true" ondragstart="drag(event)">
-                <img class="resize-img" id="green" src="img/player_green.webp" draggable="true"
-                    ondragstart="drag(event)">
-                <img class="resize-img" id="lime" src="img/player_lime.webp" draggable="true" ondragstart="drag(event)">
-                <img class="resize-img" id="orange" src="img/player_orange.webp" draggable="true"
-                    ondragstart="drag(event)">
-                <img class="resize-img" id="pink" src="img/player_pink.webp" draggable="true" ondragstart="drag(event)">
-                <img class="resize-img" id="purple" src="img/player_purple.webp" draggable="true"
-                    ondragstart="drag(event)">
-                <img class="resize-img" id="red" src="img/player_red.webp" draggable="true" ondragstart="drag(event)">
-                <img class="resize-img" id="white" src="img/player_white.webp" draggable="true"
-                    ondragstart="drag(event)">
-                <img class="resize-img" id="yellow" src="img/player_yellow.webp" draggable="true"
-                    ondragstart="drag(event)">
                 </div>
-                
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <br>
+
+                <img class="resize-img" id="drag1" src="img/player_black.webp" draggable="true"
+                    ondragstart="drag(event)">
+                <img class="resize-img" id="drag2" src="img/player_blue.webp" draggable="true"
+                    ondragstart="drag(event)">
             </div>
+
+
         </div>
 
         <div class="rightcolumn">
