@@ -17,6 +17,9 @@ Demo available [here](https://0x67.github.io/phase0-final-project/).
 
 * Flexible `div` size. If no players are inside, the size will be 0. And the opposite, if more players are added size will increase.
 
+## Known Bug/Issues
+
+* If player image is dragged to another image, it will override the other image.
 
 ## Contributing
 1. If you want to contribute, clone the repo:
