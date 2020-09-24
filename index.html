@@ -9,30 +9,58 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Simple Music Player</title>
+    <title>Among Us Player Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-
     <link rel="icon" href="img/head-logo.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="centered-player">
-        <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/videoseries?list=PLPGTuQnSkrYvEI4n_EGbMpwzoX_X40U0R" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-        </iframe>
-    </div>
-    
-    <div id="quote">
+    <div class="row">
+        <div class="leftcolumn">
+            <h2>Player Tracker</h2>
+                <div class="innocent">
+                    <h3>Innocent</h3>
+                </div>
+                
+                <div class="suspicious">
+                    <h3>Suspicious</h3>
+                    
+                </div>
 
+                <div class="target-list">
+                    <h3>Target List</h3>
+                </div>
+
+                <div class="dead">
+                    <h3>Dead</h3>
+                </div>
+
+                <div class="unknown">
+                    <h3>Unknown</h3>
+                </div>
+                
+        </div>
+
+        <div class="rightcolumn">
+            <div class="topnav">
+                <a href="#" onclick="mapSkeld()">The Skeld</a>
+                <a href="#" onclick="mapMira()">Mira HQ</a>
+                <a href="#" onclick="mapPolus()">Polus</a>
+            </div>
+            <!-- <div class="card">
+                <img id="mapPolus" src="img/map_polus.png" alt="" style="visibility:hidden">
+            </div> -->
+
+            <div class="container">
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+              </div>
+
+        </div>
     </div>
-    
-    <div class="centered-button">
-        <button onclick="newQuote()">Random Quotes</button>
-    </div>
-    <script src="javascript.js"></script>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
