@@ -34,5 +34,8 @@ Demo available [here](https://0x67.github.io/phase0-final-project/).
 4. Create pull request with the name of your branch/update.
 5. Wait for me to merge it to `master` and/or review the changes.
 
+## Credit
+[Samurai Pipotchi](https://twitter.com/samuraipipotchi?lang=en) for the map image.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
