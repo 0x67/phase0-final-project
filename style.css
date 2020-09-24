@@ -1,0 +1,35 @@
+body {
+    background-color: #96ffd9;
+}
+
+.centered-player {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-button {
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 46%;
+    transform: translateY(-50%, -50%);
+    /* transform: translateY(-50%); */
+}
+
+#content {
+    height: 45em;
+} p {
+    max-width: 30em;
+    color: white;
+    /* font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif; */
+    letter-spacing:0.1em;
+    text-align:center;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 2em;
+    font-variant: small-caps;
+  }

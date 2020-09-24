@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Music Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="img/head-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="centered-player">
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLPGTuQnSkrYvEI4n_EGbMpwzoX_X40U0R" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
+    </div>
+    
+    <div id="quote">
+
+    </div>
+    
+    <div class="centered-button">
+        <button onclick="newQuote()">Random Quotes</button>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
