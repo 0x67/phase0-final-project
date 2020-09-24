@@ -22,7 +22,6 @@ function mapPolus(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 
-
 function allowDrop(ev) {
   ev.preventDefault();
 }
